@@ -10,7 +10,7 @@ messages = [f"message_{i+4}" for i in range(21)]  # Example chat messages starti
 
 # Variables
 Active = True  # Control variable to keep the chat running
-posisubtime = ["un", "dos", "tres", "cinco", "nueve", "doce"]  # Possible subscription times
+posisubtime = ["one", "two", "three", "five", "nine", "eleven"]  # Possible subscription times
 mesdesub = ""  # Placeholder for the chosen subscription time
 Sub = f" has joined for {mesdesub} months"  # Subscription message template
 
